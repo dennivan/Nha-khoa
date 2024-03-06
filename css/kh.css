@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family: "Roboto", sans-serif;font-size: 16px; color: #666666;margin: 0
+}
+.top-bar{
+	width: 100%;height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6;padding-top: 0;padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid #D8D8D8
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white;transition: all 1s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113;padding-left: 25px
+}
+main{
+	width: 100%;min-height: 600px
+}
+footer{
+	width: 100%;min-height: 300px
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+.bottom-bar{
+	width: 100%;height: 50px;line-height: 50px;text-align: center;background-color: #FFC113
+}
+#service a{
+	text-decoration: none;color: #666666
+}
+#service a:hover{
+	color: #FFC113
+}
+#why{
+	width: 100%;min-height: 400px;background-image: url("../images/why.jpg");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.box-cha{
+	position: relative
+}
+.truoc{
+	position: absolute;left: 0;top: 0;padding: 8px;background-color: rgba(230,230,230,0.60)
+}
+.sau{
+	position: absolute;left: 50%;top: 0;padding: 8px;background-color: rgba(230,230,230,0.60)
+}
+.d-flex .p-3 h4 {
+	margin: 0; /* Loại bỏ margin mặc định */
+	font-size: 20px; /* Điều chỉnh kích thước font theo ý muốn */
+	color: #ffffff; /* Điều chỉnh màu chữ theo ý muốn */
+	display: flex; /* Thiết lập hiển thị theo chiều ngang */
+	align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  .p-3 h4 {
+	margin-top: 20px; /* Điều chỉnh khoảng cách trên theo ý muốn */
+	margin-bottom: 20px;;
+  }
+  
+  .navbar-nav li {
+	margin-top: -3px; /* Điều chỉnh khoảng cách trên theo ý muốn */
+	margin-bottom: -3px; /* Điều chỉnh khoảng cách dưới theo ý muốn */
+  }
+  .navbar-nav {
+	margin-bottom: 10px;
+  }
+  .d-flex.flex-row .p-3 {
+	display: inline-block;
+	margin-left: 0; /* Đặt margin-left về 0 để không ảnh hưởng tới khoảng cách giữa chúng */
+  }
+  .contact-info {
+	white-space: nowrap; /* Ngăn chặn xuống hàng */
+ }
+
+ .contact-info li {
+	display: inline-block; /* Hiển thị các mục li cùng hàng ngang */
+	margin-right: 10px; /* Khoảng cách giữa các mục li */
+ }
+.navbar-nav .nav-item {
+        margin-right: 10px; /* Điều chỉnh khoảng cách bên phải, bạn có thể điều chỉnh giá trị theo mong muốn */
+    }
+
+    .navbar-nav .nav-item i {
+        margin-right: 10px; /* Điều chỉnh khoảng cách bên phải giữa biểu tượng và nội dung */
+    }
+	.navbar-nav .nav-item i {
+        color: #FFC113; /* Màu vàng, bạn có thể thay đổi màu theo ý muốn */
+	}
+	.social-icons {
+		display: flex;
+		margin-top: 20px; /* Khoảng cách giữa nội dung và biểu tượng */
+	 }
+  
+	 .social-icons a {
+		font-size: 14px;
+		margin: 0 10px; /* Khoảng cách giữa các biểu tượng */
+		color: #ffffff; /* Màu của biểu tượng (bạn có thể điều chỉnh theo ý muốn) */
+		text-decoration: none; /* Loại bỏ gạch chân mặc định cho liên kết */
+	 }
+	 .imgfull {
+		max-width: 100%;
+		height: auto;
+	 }
+	 .banner {
+		position: relative;
+		background-color: #4CAF50; /* Màu nền của banner */
+		color: #fff; /* Màu chữ của banner */
+		padding: 20px;
+		text-align: center;
+	}
+
+	.bannertext {
+		position: relative;
+		z-index: 1; /* Đặt z-index để đảm bảo nó nằm trên banner */
+	}
+h2 {
+	color: #ffffff; /* Màu chữ của tiêu đề */
+	
+}
+
+p {
+	color: #ffffff; /* Màu chữ của đoạn văn */
+}
+
+button {
+	width: 150px;
+	margin-top: 20px;;
+	padding: 10px 30px;
+	font-size: 16px;
+	background-color: #056CB6; /* Màu nền của nút */
+	color: #fff; /* Màu chữ của nút */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+button:hover {
+	background-color: #0036d7; /* Màu nền khi hover */
+}
+.banner {
+	position: relative;
+}
+
+.bannertext{
+	position: absolute;
+	top: 40%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	color: #fff; /* Màu chữ của bannertext */
+}
+.feed-back {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Căn giữa các phần tử */
+	flex-wrap: wrap; /* Cho phép các phần tử xuống dòng khi không đủ không gian */
+  }
+  
